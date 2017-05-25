@@ -1,20 +1,66 @@
-.logo, #headerNav {
+
+
+.header {
   display: flex;
+  position: fixed;
+  align-items: center;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  width: 100%;
+  z-index: 5;
+  border-bottom: 1px solid black;
+  height: 80px;
+  width: 100%;
+  border: 1px solid black;
 
 }
 
-#headerNav  {
-  text-align: center;
-  justify-content: flex-end;
+.header img {
+  padding-left: 30px;
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
 }
 
 #headerNav a {
-  
+  display: inline-block;
+  color: black;
+  padding: 20px 10px;
+
+  }
+
+#headerNav {
+  width: 100%;
+  text-align: right;
+  padding-right: 40px;
 }
 
-#myTimes {
+.myTimes {
   color: MediumAquamarine;
+  width: 100%;
+
+}
+
+.content {
+  padding-top: 116px;
+}
+
+.column.large {
+  width: 630px;
+  border: 1px solid black;
+
+
+}
+
+.column.medium {
+  width: 300px;
+  border: 1px solid black;
+
+}
+
+.column.small {
+  width: 240px;
+  border: 1px solid black;
+
 }
