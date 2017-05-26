@@ -1,4 +1,6 @@
-
+div {
+  border: 1px solid black;
+}
 
 .header {
   display: flex;
@@ -8,11 +10,11 @@
   font-size: 14px;
   font-weight: bold;
   width: 100%;
-  z-index: 5;
+  
   border-bottom: 1px solid black;
   height: 80px;
   width: 100%;
-  border: 1px solid black;
+
 
 }
 
@@ -44,6 +46,7 @@
 
 .content {
   padding-top: 116px;
+  display: inline-flex;
 }
 
 .column.large {
