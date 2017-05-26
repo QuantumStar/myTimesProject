@@ -14,7 +14,8 @@ div {
   border-bottom: 1px solid black;
   height: 80px;
   width: 100%;
-
+  background-color: white;
+  margin-top: -8px;
 
 }
 
