@@ -41,30 +41,41 @@ div {
 
 .myTimes {
   color: MediumAquamarine;
-  width: 100%;
+  justify-content: center;
 
 }
 
 .content {
+  margin: 0 auto 78px;
   padding-top: 116px;
-  display: inline-flex;
+  display: flex;
+  justify-content: space-around;
+  width: 1232px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+
 }
 
 .column.large {
   width: 630px;
   border: 1px solid black;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
 }
 
 .column.medium {
   width: 300px;
   border: 1px solid black;
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .column.small {
   width: 240px;
   border: 1px solid black;
-
+  display: flex;
+  flex-wrap: wrap;
 }
