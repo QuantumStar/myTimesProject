@@ -10,7 +10,7 @@ div {
   font-size: 14px;
   font-weight: bold;
   width: 100%;
-  
+  z-index: 5;
   border-bottom: 1px solid black;
   height: 80px;
   width: 100%;
