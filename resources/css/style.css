@@ -101,6 +101,8 @@
   margin-top: 15px;
   justify-content: center;
   font-weight: bold;
+  background-position: center;
+  background-size: cover;
 }
 
 .pop-culture.image-content {
@@ -114,6 +116,8 @@
   margin-top: 15px;
   justify-content: center;
   font-weight: bold;
+  background-position: center;
+  background-size: cover;
 }
 
 .cat-ceo.image-content {
